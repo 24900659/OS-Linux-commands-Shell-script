@@ -42,24 +42,29 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
+![Screenshot 2025-04-22 103337](https://github.com/user-attachments/assets/0625be4c-eb44-4b78-b2e3-f5aa85c8850c)
 
 
 
 cat < file2
 ## OUTPUT
+![Screenshot 2025-04-22 103431](https://github.com/user-attachments/assets/917e3171-f2bf-4788-9656-f6ef9397b484)
 
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+ ![Screenshot 2025-04-22 103502](https://github.com/user-attachments/assets/34268779-0fc2-493e-8aed-63db085cb6a8)
+
 comm file1 file2
  ## OUTPUT
+![Screenshot 2025-04-22 103538](https://github.com/user-attachments/assets/087417b1-4dcc-42e6-ab49-410ed34f34c6)
 
  
 diff file1 file2
 ## OUTPUT
 
+![Screenshot 2025-04-22 103618](https://github.com/user-attachments/assets/82ae31d7-2c4a-4b90-a530-81442d66e55d)
 
 #Filters
 
@@ -82,17 +87,22 @@ cat > file22
 
 cut -c1-3 file11
 ## OUTPUT
+<img width="236" alt="image" src="https://github.com/user-attachments/assets/e5cb5860-253f-4c4e-979d-5f63d258ef6e" />
 
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
+![Screenshot 2025-04-22 103721](https://github.com/user-attachments/assets/22f20fd8-eee3-4217-9585-988120541eaa)
+
 
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
+
+![Screenshot 2025-04-22 103721](https://github.com/user-attachments/assets/99ebe1af-c785-46b7-8724-719245eb8152)
 
 
 cat < newfile 
@@ -108,6 +118,7 @@ hello world
 grep Hello newfile 
 ## OUTPUT
 
+![Screenshot 2025-04-22 103827](https://github.com/user-attachments/assets/bafd59ac-b97c-493c-8f30-acfbcb67d473)
 
 
 grep hello newfile 
